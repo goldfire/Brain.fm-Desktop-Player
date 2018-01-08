@@ -1,0 +1,35 @@
+{
+  "name": "Brain.fm",
+  "version": "1.0.0",
+  "description": "Brain.fm as a desktop app.",
+  "author": "James Simpson (http://goldfirestudios.com)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "dist": "rimraf dist && build -mw"
+  },
+  "build": {
+    "productName": "Brain.fm",
+    "artifactName": "${productName}.${ext}",
+    "appId": "com.brain-fm.app",
+    "files": [
+      "main.js",
+      "menus.js",
+      "renderer.js"
+    ],
+    "mac": {
+      "category": "brain-fm.music.type"
+    },
+    "win": {
+      "target": "portable"
+    }
+  },
+  "dependencies": {
+    "electron-window-state": "4.1.1"
+  },
+  "devDependencies": {
+    "electron": "1.8.2-beta.3",
+    "electron-builder": "^19.52.1",
+    "rimraf": "^2.6.2"
+  }
+}
