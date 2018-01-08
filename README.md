@@ -11,8 +11,8 @@ Desktop player for the [Brain.fm](https://brain.fm/) AI music service.
 ## Download
 Download the latest binary:
 
-* [Windows](https://github.com/goldfire/Brain.fm-Desktop-Player/releases/download/v1.0.0/Brain.fm.dmg)
-* [macOS](https://github.com/goldfire/Brain.fm-Desktop-Player/releases/download/v1.0.0/Brain.fm.exe)
+* [Windows](https://github.com/goldfire/Brain.fm-Desktop-Player/releases/download/v1.0.0/Brain.fm.exe)
+* [macOS](https://github.com/goldfire/Brain.fm-Desktop-Player/releases/download/v1.0.0/Brain.fm.dmg)
 
 ### License
 
